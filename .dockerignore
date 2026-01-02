@@ -1,0 +1,47 @@
+# Node
+node_modules
+npm-debug.log
+.npm
+
+# Build outputs
+.svelte-kit
+build
+dist
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Development
+.git
+.gitignore
+README.md
+QUICKSTART.md
+SYNOLOGY_DEPLOY.md
+
+# IDE
+.vscode
+.idea
+
+# Testing
+coverage
+.nyc_output
+
+# Database
+*.db
+*.db-journal
+db/
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
