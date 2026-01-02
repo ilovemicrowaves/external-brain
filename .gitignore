@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log
+
+# Build outputs
+.svelte-kit/
+build/
+dist/
+.vercel/
+.netlify/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Database
+*.db
+*.db-journal
+db/
+pgdata/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tsbuildinfo
